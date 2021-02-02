@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 
 import Header from "../components/header"
+import Footer from "../components/footer"
 
 import styles from "../styles/index.module.css"
 
@@ -37,6 +38,8 @@ const Contact = () => {
                 <button>Send</button>
             </form>
         </div>
+
+        <Footer />
         </>
     )
 }
