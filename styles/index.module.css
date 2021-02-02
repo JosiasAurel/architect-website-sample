@@ -2,11 +2,12 @@
 .showerText {
     font-size: 800%;
     font-family: monospace;
+    color: white;
 }
 
 .showerText::selection {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 @media screen and (max-width: 780px) {
@@ -19,6 +20,13 @@
     .showerText {
         font-size: 600%;
     }
+}
+
+.shower {
+    background-image: url("/shower.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 100vh;
 }
 
 .formContainer {

@@ -1,0 +1,17 @@
+
+.imageGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin: 2em 1em 2em 1em;
+}
+
+.imageGrid img {
+    filter: blur(1px);
+}
+
+.imageGrid img:hover {
+    border-radius: 8px;
+    filter: none;
+}
