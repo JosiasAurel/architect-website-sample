@@ -20,3 +20,37 @@
         font-size: 600%;
     }
 }
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactForm input {
+    border: solid 2px black;
+    text-align: center;
+    margin: 1em 0 1em 0;
+    padding: 1em 2em 1em 2em;
+}
+
+.contactForm textarea {
+    border: solid 2px black;
+    margin: 1em 0 1em 0;
+    padding: 1em 2em 1em 2em;
+}
+
+.contactForm button {
+    border: solid 2px black;
+    padding: 1em 2em 1em 2em;
+    background-color: black;
+    color: white;
+}
