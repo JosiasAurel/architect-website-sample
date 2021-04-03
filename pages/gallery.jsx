@@ -8,7 +8,7 @@ const Gallery = () => {
     return (
         <div className={styles.page}>
             <Header />
-            <h1 style={{textAlign: "center"}}>Here is my amazing works.</h1>
+            <h1 style={{textAlign: "center"}}>Here are my amazing works.</h1>
             <div className={styles.imageGrid}>
                 <div>
                     <Image src="/h1.jpg" width="300px" height="300px" />
